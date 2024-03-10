@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Interactive Website</h1>
+    </header>
+
+    <main>
+        <section id="input-section">
+            <label for="name-input">Enter Your Name:</label>
+            <input type="text" id="name-input"><br><br>
+            <label for="response-input">Will You Be My Partner? (Yes/No):</label>
+            <input type="text" id="response-input">
+            <button id="submit-button">Submit</button>
+        </section>
+
+        <section id="output-section" style="display: none;">
+            <p id="output-message"></p>
+            <div id="love-message" style="display: none;">
+                <img src="cat.jpg" alt="Heart" id="heart">
+                <p id="love-text">THANK YOU i promise i wont hurt you!!!</p>
+            </div>
+        </section>
+
+        <section id="images-section">
+            <img src="sheesh.jpg" alt="Big the Cat" id="big-the-cat">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Interactive Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

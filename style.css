@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#output-section {
+    margin-top: 20px;
+}
+
+#heart {
+    width: 50px;
+    height: 50px;
+}
+
+#love-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#images-section {
+    text-align: center;
+}
+
+#mobile-phone {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#big-the-cat {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #333;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    #images-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+#heart {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+}
+
+#love-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@keyframes heartBeat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5); /* Adjust the scale as needed */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
